@@ -58,3 +58,13 @@ curl $(minikube service api-version --url)/api/version
 ```bash
 kubectl patch service api-version -p '{"spec":{"selector":{"version":"v1.0.0"}}}'
 ```
+
+#### Resultado /api/version - Rollback
+
+```bash
+curl $(minikube service api-version --url)/api/version
+```
+
+```json
+{"id":"1.0.0", "name":"Version One"}
+```
