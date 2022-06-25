@@ -27,7 +27,7 @@ curl $(minikube service api-version --url)/api/version
 ```
 
 ```json
-result: {"id":"1.0.0", "name":"Version One"}
+{"id":"1.0.0", "name":"Version One"}
 ```
 
 ## Prepara o pacote v2.0.0 e envia para Minikube
